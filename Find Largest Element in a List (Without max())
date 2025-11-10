@@ -1,0 +1,6 @@
+numbers = [10, 2, 45, 3, 18]
+largest = numbers[0]
+for n in numbers:
+    if n > largest:
+        largest = n
+print("Largest:", largest)
