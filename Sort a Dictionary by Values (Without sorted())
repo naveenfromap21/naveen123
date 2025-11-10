@@ -1,0 +1,14 @@
+data = {'apple': 10, 'banana': 5, 'mango': 8}
+items = list(data.items())
+
+# Simple bubble sort by value
+for i in range(len(items)):
+    for j in range(i + 1, len(items)):
+        if items[i][1] > items[j][1]:
+            items[i], items[j] = items[j], items[i]
+
+sorted_dict = {}
+for k, v in items:
+    sorted_dict[k] = v
+
+print(sorted_dict)
