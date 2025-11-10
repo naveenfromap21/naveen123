@@ -1,0 +1,6 @@
+sentence = "I love Python"
+words = sentence.split()
+rev_sentence = ""
+for i in range(len(words)-1, -1, -1):
+    rev_sentence += words[i] + " "
+print(rev_sentence.strip())
