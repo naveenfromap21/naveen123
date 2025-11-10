@@ -1,0 +1,10 @@
+lst = [10, 15, 20, 25, 30]
+even = []
+odd = []
+for n in lst:
+    if n % 2 == 0:
+        even.append(n)
+    else:
+        odd.append(n)
+print("Even:", even)
+print("Odd:", odd)
